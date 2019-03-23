@@ -1,7 +1,7 @@
 # getting-to-know-terraform
 Terraform notes &amp; information 
 
-# TERRAFORM CONFIGURARION #1 TO PROVISION A GKE CLUSTER (NOT TESTED)
+# TERRAFORM CONFIGURARION #1 TO PROVISION A GKE CLUSTER (1.13/ALPHA)
 
 resource "google_container_cluster" "new_york_cyber_codeless_gke_cluster" {
  
@@ -11,7 +11,7 @@ resource "google_container_cluster" "new_york_cyber_codeless_gke_cluster" {
   description = "new_york_cyber_codeless_gke_worldwide_cluster"
   enable_binary_authorization =
   enable_legacy_abac = "false"
-  enable_kubernetes_alpha = "false"
+  enable_kubernetes_alpha = "true"
   enable_tpu = "false"
   additional_config =
   # additional_zones = "us-west2-b"
