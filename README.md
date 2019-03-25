@@ -43,3 +43,18 @@ resource "google_container_cluster" "new_york_cyber_codeless_gke_cluster" {
   
 
 }
+
+# ----------
+
+# Terraform module start
+
+module "" {
+
+source = ""
+
+# Reference documentation 
+# 1.1 - https://www.terraform.io/docs/configuration/modules.html (Terraform module reference documentation)
+# 1.2 - https://registry.terraform.io/ (Terraform registry URL)
+# 1.3 - https://registry.terraform.io/sign-in (actually register a Terraform module)
+
+}
