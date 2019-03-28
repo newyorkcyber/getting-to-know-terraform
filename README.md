@@ -50,9 +50,21 @@ resource "google_container_cluster" "new_york_cyber_codeless_gke_cluster" {
 
 module "" {
 
+# examples
+# main.tf
+# modules 
+# outputs.tf
+# README.md
+# variables.tf
+  # NESTED_OMEGA
+    # main.tf
+    # outputs.tf
+    # variables.tf
+
 source = ""
 
-# Reference documentation 
+# Reference documentation
+# 1.0 - https://www.terraform.io/docs/index.html
 # 1.1 - https://www.terraform.io/docs/configuration/modules.html (Terraform module reference documentation)
 # 1.2 - https://registry.terraform.io/ (Terraform registry URL)
 # 1.3 - https://registry.terraform.io/sign-in (actually register a Terraform module)
