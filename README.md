@@ -63,7 +63,20 @@ module "" {
 
 source = ""
 
+
+# ----------
+
+data "google_container_registry_repository" "new_york_cyber_codeless_gke_registry" {
+  
+  project =
+  region =
+  
+}
+
+
+
 # Reference documentation
+# 1.00 - https://www.terraform.io/docs/providers/google/d/google_container_registry_repository.html
 # 1.0 - https://www.terraform.io/docs/index.html
 # 1.1 - https://www.terraform.io/docs/configuration/modules.html (Terraform module reference documentation)
 # 1.2 - https://registry.terraform.io/ (Terraform registry URL)
