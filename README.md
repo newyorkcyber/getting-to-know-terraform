@@ -68,14 +68,16 @@ source = ""
 
 data "google_container_registry_repository" "new_york_cyber_codeless_gke_registry" {
   
-  project =
-  region =
+  # project =
+  region = europe-west2
+  
   
 }
 
 
 
 # Reference documentation
+# 1.000 - https://cloud.google.com/compute/docs/regions-zones/
 # 1.00 - https://www.terraform.io/docs/providers/google/d/google_container_registry_repository.html
 # 1.0 - https://www.terraform.io/docs/index.html
 # 1.1 - https://www.terraform.io/docs/configuration/modules.html (Terraform module reference documentation)
